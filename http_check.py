@@ -17,7 +17,7 @@ def check(arg1):
 parser = argparse.ArgumentParser()
 parser.add_argument("--url","-u",help="Site Url")
 veri = parser.parse_args()
-#print("site: {}".format(veri.site))
+
 
 
 if __name__ == '__main__':
