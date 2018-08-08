@@ -13,12 +13,11 @@ def check(arg1):
         print ('Can not access site')
         exit (2)
 
-#Argüman tanımlama
-parser = argparse.ArgumentParser()
-parser.add_argument("--url","-u",help="Site Url")
-veri = parser.parse_args()
-
-
-
-if __name__ == '__main__':
+def main(): 
+    #Argüman tanımlama
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--url","-u",help="Site Url")
+    veri = parser.parse_args()
     check(veri.url)
+if __name__ == '__main__':
+    main()
