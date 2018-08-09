@@ -1,11 +1,10 @@
 #!/usr/bin/python
-# -*- coding: iso-8859-15 -*-
+#-*- coding: iso-8859-15 -*-
 import requests,argparse,urllib3
 
 urllib3.disable_warnings()
 def check(arg1):
     r = requests.get(arg1)
-    
     if r.status_code ==200:
         print ('System is OK.. : OK')
         exit (0)
