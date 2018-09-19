@@ -20,7 +20,7 @@
       }
     }
   ### İcinga Service 
-    object Service "Kocnet Proccess Control" {
+    object Service "Proccess Control" {
     import "generic-service"
     host_name = "Hostname"
     check_command = "check_mysql_query"
