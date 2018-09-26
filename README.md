@@ -1,7 +1,7 @@
 # Python-Script
 
 ## Http_Check.py
-  ---> http_check.py -u example.com
+    ---> http_check.py -u example.com
 
 ## Icinga Check_Mysql_Query.py
 
