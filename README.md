@@ -35,3 +35,4 @@
     }
   ### Test icinga 
     ---> /usr/lib64/nagios/plugins/check_mysql_query.py -H xx.xx.xx.xx -d dbname -u username -p Password -q "select * from user"
+    
