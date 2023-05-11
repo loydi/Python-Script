@@ -1,9 +1,9 @@
 # Python-Script
 
-## Http_Check.py
+## Icinga Http Check
     ---> http_check.py -u example.com
 
-## Icinga Check_Mysql_Query.py
+## Icinga Check Mysql Query
 
   ### icinga commands 
     object CheckCommand "check_mysql_query" {
